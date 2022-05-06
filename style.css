@@ -1,18 +1,55 @@
 body {
     margin: auto;
     text-align: center;
+    background-image: url("https://media.istockphoto.com/vectors/dog-paw-print-seamless-template-for-your-design-wrapping-paper-card-vector-id922637404?k=20&m=922637404&s=612x612&w=0&h=sWqoak97hw8SsUgChiTCaB0Sx1Ax2TlveURbdyGh9MA=") ;
 }
 
+main {
+    background-color: white;
+    padding-bottom: 5%;
+    margin: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: solid 1pt grey;
+}
+.meet {
+    font-size: 400%;
+    margin-bottom: -1%;
+}
 #photo {
-    width: 20%;
-    height: 40%;
+    max-width: 300px;
+    max-height: 500px;
 }
 
 .italic {
     font-style: italic;
+    text-align: left;
 }
 
 #likes {
     font-weight: bold;
+    text-align: right;
 }
 
+.content {
+    display: flex; 
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+.photo {
+    grid-column: 1/2;
+    margin-right: -10%;
+    padding: 0;
+}
+
+.about {
+    grid-column: 2/3;
+    margin-left: -10%;
+    padding: 0;
+}
+
+button {
+    margin: 3%;
+    margin-top: 1%;
+}
