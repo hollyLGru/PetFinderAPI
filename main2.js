@@ -35,10 +35,8 @@ button.addEventListener('click', function(){
         // do something with the json payload
         let activityrec = json;
         let likeTodo = activityrec.activity;
-       
-        let ul = document.getElementById("likes");
-        
-        ul.innerText = likeTodo;
+        let p = document.getElementById("likes");
+        p.innerText = likeTodo;
     })
 })
 
